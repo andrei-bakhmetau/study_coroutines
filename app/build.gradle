@@ -66,6 +66,9 @@ dependencies {
 
 
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-jackson:$retrofit_version"
+    implementation "com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7"
 
 
     implementation 'com.google.android.material:material:1.0.0'
