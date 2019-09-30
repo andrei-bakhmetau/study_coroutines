@@ -1,4 +1,4 @@
-package network
+package com.example.studycoroutines.network
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper

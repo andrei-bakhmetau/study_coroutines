@@ -5,10 +5,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.*
-import network.GitHubService
-import network.RequestData
-import network.User
-import network.createGitHubService
+import com.example.studycoroutines.network.GitHubService
+import com.example.studycoroutines.network.RequestData
+import com.example.studycoroutines.network.User
+import com.example.studycoroutines.network.createGitHubService
 import retrofit2.Response
 
 class HomeViewModel : ViewModel() {

@@ -1,6 +1,7 @@
 package com.example.studycoroutines.ui.home
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,7 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.studycoroutines.R
 import kotlinx.android.synthetic.main.fragment_home.*
-import network.User
+import java.util.*
 
 class HomeFragment : Fragment() {
 
